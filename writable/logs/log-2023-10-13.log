@@ -1,0 +1,43 @@
+CRITICAL - 2023-10-13 15:13:38 --> Cannot redeclare App\Controllers\tugas::index()
+in APPPATH\Controllers\tugas.php on line 14.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2023-10-13 15:14:25 --> Invalid file: "pages/contact.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/contact.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/contact', [], true)
+ 3 APPPATH\Controllers\tugas.php(21): view('pages/contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tugas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tugas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\KULIAH\\Semester 5\\Pak Purnomo\\Tugas 2\\reyhan_ci4\\public\\index.php')
+CRITICAL - 2023-10-13 15:14:26 --> Invalid file: "pages/contact.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/contact.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/contact', [], true)
+ 3 APPPATH\Controllers\tugas.php(21): view('pages/contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tugas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tugas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\KULIAH\\Semester 5\\Pak Purnomo\\Tugas 2\\reyhan_ci4\\public\\index.php')
+CRITICAL - 2023-10-13 15:15:26 --> Invalid file: "pages/contact.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/contact.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/contact', [], true)
+ 3 APPPATH\Controllers\tugas.php(21): view('pages/contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tugas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tugas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\KULIAH\\Semester 5\\Pak Purnomo\\Tugas 2\\reyhan_ci4\\public\\index.php')
+CRITICAL - 2023-10-13 15:16:09 --> Invalid file: "pages/contact.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pages/contact.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('pages/contact', [], true)
+ 3 APPPATH\Controllers\tugas.php(21): view('pages/contact', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\tugas->index()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\tugas))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\KULIAH\\Semester 5\\Pak Purnomo\\Tugas 2\\reyhan_ci4\\public\\index.php')
